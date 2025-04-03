@@ -27,7 +27,7 @@ function levelUp(){
      highest++;
      h2.innerText =`level ${level}`;
 
-     let ranIdx = Math.floor(Math.random()*3);
+     let ranIdx = Math.floor(Math.random()*4);
      let ranCol = btns[ranIdx];
      let ranBtn = document.querySelector(`.${ranCol}`);
      gameSeq.push(ranCol);
